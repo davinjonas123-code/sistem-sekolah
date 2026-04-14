@@ -1,25 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/output.css">
-    <title>Tambah Siswa</title>
-</head>
- 
-<body class="min-h-screen flex flex-col">
- 
-    <!-- Header Start -->
-    <header class="bg-blue-500 text-white">
-        <div class="flex items-center justify-between container mx-auto p-4">
-            <a href="/students" class="font-bold text-xl">Sistem Sekolah</a>
-            <a href="/students/create" class="bg-white text-blue-500 px-4 py-2 rounded-lg">+ Tambah Siswa</a>
-        </div>
-    </header>
-    <!-- Header End -->
- 
-    <!-- Main -->
-     <main class="container mx-auto grow">
         <div class="mt-8 space-y-2">
             <!-- Card Header Start -->
              <div class="p-4 shadow rounded-lg bg-white">
@@ -61,20 +39,3 @@
  
              <!-- Card Body End -->
         </div>
-       
-    <!-- Main End -->
-    </main>
-    <!-- Footer Start -->
-     <footer class="bg-gray-800 text-white text-center">
-        <div class="text-center p-4">
-            &copy; <?= date('Y') ?> Sistem Sekolah. SMK Kristen Immanuel
- 
-        </div>
-    </footer>
-    <!-- Footer End -->
- 
-</body>
-</html>
- 
- 
- 
