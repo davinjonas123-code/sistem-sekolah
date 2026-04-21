@@ -9,7 +9,7 @@
              <!-- Card Body Start -->
  
  <div class="bg white shadow rounded-lg p-4">
-    <form action="" class="grid grid-cols-2 gap-4">
+    <form action="/students" method="POST" class="grid grid-cols-2 gap-4">
         <div class="space-y-2">
             <label class="block font-bold" for="name">Nama</label>
             <input class="w-full px-4 py-2 border rounded-lg" type="text" id="name" placeholder="Masukkan nama" name="name">
